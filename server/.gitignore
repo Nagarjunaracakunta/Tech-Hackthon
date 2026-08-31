@@ -1,0 +1,7 @@
+node_modules/
+uploads/*
+!uploads/.gitkeep
+spotshield.db
+spotshield.db-journal
+spotshield.db-wal
+spotshield.db-shm

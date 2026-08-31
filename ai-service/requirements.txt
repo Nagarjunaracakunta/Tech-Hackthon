@@ -1,0 +1,20 @@
+# SpotShield AI service — the "approved open-source AI stack":
+#   Ollama (Llama 3.2 / Qwen2.5-VL) . LangGraph . MarkItDown . LlamaIndex + Qdrant . XGBoost
+fastapi>=0.115,<0.116
+uvicorn[standard]>=0.30,<0.31
+langgraph>=0.2,<0.3
+ollama>=0.4,<1
+markitdown[pdf,docx,pptx,xlsx]>=0.0.1a3
+llama-index-core>=0.12
+llama-index-vector-stores-qdrant>=0.5
+llama-index-embeddings-ollama>=0.5
+llama-index-llms-ollama>=0.5
+qdrant-client>=1.11,<2
+xgboost>=3,<4
+scikit-learn>=1.5,<2
+pandas>=2.2,<3
+numpy>=1.26,<2.1
+python-multipart>=0.0.9
+pydantic>=2.8,<3
+httpx>=0.27
+pillow>=10
