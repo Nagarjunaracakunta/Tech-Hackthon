@@ -14,7 +14,7 @@ OLLAMA_HOST = os.environ.get("OLLAMA_HOST", "http://localhost:11434")
 # ("Llama 3.3" / "Qwen2.5-VL"). Swap these for the 70B / full VL checkpoints
 # by setting the env vars once you have the hardware/bandwidth for them.
 OLLAMA_TEXT_MODEL = os.environ.get("OLLAMA_TEXT_MODEL", "llama3.2:3b")
-OLLAMA_VISION_MODEL = os.environ.get("OLLAMA_VISION_MODEL", "qwen2.5vl:7b")
+OLLAMA_VISION_MODEL = os.environ.get("OLLAMA_VISION_MODEL", "moondream")
 OLLAMA_EMBED_MODEL = os.environ.get("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 
 QDRANT_PATH = str(AI_SERVICE_DIR / "qdrant_data")

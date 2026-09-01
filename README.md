@@ -1,3 +1,13 @@
+---
+title: SpotShield AI
+emoji: 🛡️
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # SpotShield AI — starter app
 
 A working prototype of the flow from the Stage 2 deck: one field agent opens a
