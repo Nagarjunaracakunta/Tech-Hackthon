@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Build output
+dist/
+**/dist/
+build/
+
+# Local data / generated state
+server/spotshield.db
+server/spotshield.db-journal
+server/spotshield.db-wal
+server/spotshield.db-shm
+server/uploads/*
+!server/uploads/.gitkeep
+ai-service/qdrant_data/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
